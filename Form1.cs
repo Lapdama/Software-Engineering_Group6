@@ -49,6 +49,10 @@ namespace SEProject
                     Employee form = new Employee();
                     form.Show();
                 }
+
+                //Clearing text box
+                txtPassword.Text = "";//clears text box                  
+              
             }
 
             catch (Exception)
